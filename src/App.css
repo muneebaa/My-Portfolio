@@ -1,0 +1,16 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+  --main_color: #EA4343;
+  --primary_color: #3C3C3C;
+  --primary_color_dark:#333232;
+  --text_white:#FFFFFF;
+  --text_grey:#67656A;
+}
+
+html,body,h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,5 @@
+.home {
+    background-color: var(--primary_color_dark);
+    color: rgb(0, 0, 0);
+    height: 100vh;
+}
