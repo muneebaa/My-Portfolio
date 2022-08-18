@@ -3,9 +3,9 @@ body{
 }
 
 :root {
-  --main_color: #EA4343;
-  --primary_color: #3C3C3C;
-  --primary_color_dark:#333232;
+  --main: #EA4343;
+  --primary: #3C3C3C;
+  --primary_dark:#333232;
   --text_white:#FFFFFF;
   --text_grey:#67656A;
 }

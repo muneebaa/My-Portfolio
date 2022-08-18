@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-function Button({ value, borderColor, backgroundColor, textColor }) {
+function Button({ value, borderColor, backgroundColor, textColor, marginTop }) {
   return (
     <>
       <button
@@ -10,6 +10,7 @@ function Button({ value, borderColor, backgroundColor, textColor }) {
           color: textColor,
           backgroundColor: backgroundColor,
           border: borderColor ? `1px solid ${borderColor}` : 'none',
+          marginTop: marginTop,
         }}>
         {value}
       </button>

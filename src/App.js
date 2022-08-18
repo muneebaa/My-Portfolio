@@ -8,8 +8,8 @@ function App() {
       <Navigation />
       <Home />
       <About />
-      <Contact />
       <Portfolio />
+      <Contact />
       <Resume />
     </div>
   );

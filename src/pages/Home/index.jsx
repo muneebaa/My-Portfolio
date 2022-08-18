@@ -7,20 +7,26 @@ import './style.css';
 
 function Home() {
   return (
-    <div className='home' id=''>
-      <div>
-        <h2>Hello, I`m</h2>
-        <h1>Muneeba </h1>
-        <h2>
+    <div className='home-main' id=''>
+      <div className='home-sec-1'>
+        <h2 className='home-sec-1-hello'>Hello, I'm</h2>
+        <h1 className='home-sec-1-name'>Muneeba </h1>
+        <h2 className='home-sec-1-creative'>
           Creative<span>Developer</span>
         </h2>
-        <div>
+        <div className='home-sec-1-buttons'>
           <Button
             value='Say Hello ✉'
             textColor={colors.white}
             backgroundColor={colors.main}
           />
+          <p>About Me</p>
         </div>
+      </div>
+      <div className='home-sec-2'>
+        <div className='home-square-small'></div>
+        <div className='home-square-border'></div>
+        <div className='home-square-big'></div>
       </div>
     </div>
   );
