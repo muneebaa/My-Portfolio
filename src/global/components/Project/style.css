@@ -1,0 +1,37 @@
+
+
+.portfolio__item {
+    background: var(--main);
+    overflow: hidden;
+    /* border: 2px solid rgb(135, 135, 0); */
+    /* height: 200px; */
+    margin-top: 1em;
+    height: 250px;
+    border-radius: 5px;
+    z-index: 1;
+
+ }
+
+ .portfolio__item img{
+    width: 500px;
+    height: 100%;
+ }
+
+
+.portfolio__img {
+    object-fit: cover;
+    transition:
+        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        opacity 250ms linear;
+}
+
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+    transform: scale(1.2);
+    opacity: .5;
+}

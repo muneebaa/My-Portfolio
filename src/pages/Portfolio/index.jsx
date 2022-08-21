@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 import ProgressBar from '../../global/components/ProgressBar';
+import Project from '../../global/components/Project';
+import { data } from '../../utils/data';
 
 function Portfolio() {
   return (
@@ -66,6 +68,11 @@ function Portfolio() {
             </div>
           </div>
         </div>
+      </div>
+      <div className='portfolio-sec-3'>
+        {data.map((data) => (
+          <Project name={data.name} img={data.img} id={data.id} />
+        ))}
       </div>
     </div>
   );

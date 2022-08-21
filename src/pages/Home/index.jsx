@@ -26,6 +26,7 @@ function Home() {
       <div className='home-sec-2'>
         <div className='home-square-small'></div>
         <div className='home-square-border'></div>
+        <div className='home-square-img'></div>
         <div className='home-square-big'></div>
       </div>
     </div>
