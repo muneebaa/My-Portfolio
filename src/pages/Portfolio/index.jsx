@@ -55,7 +55,7 @@ function Portfolio() {
           <div className='portfolio-exp'>
             <div className='portfolio-exp-skill-wrap'>
               <h2 className='portfolio-exp-title'>Backend Developement</h2>
-              <h2 portfolio-exp-title>60%</h2>
+              <h2 className='portfolio-exp-title-percent'>60%</h2>
             </div>
             <div className='bar'>
               <ProgressBar

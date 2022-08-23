@@ -5,7 +5,8 @@
     align-items: center;
     padding: 1.75em 5em;
     position: fixed;
-    width: 91%;
+    right: 0;
+    left: 0;
     z-index: 100;
 }
 

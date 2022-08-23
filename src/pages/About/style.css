@@ -1,5 +1,4 @@
 .about{
-    /* height: 100vh; */
     background-color: var(--primary);
     color: white;
     overflow: hidden
@@ -13,7 +12,6 @@
 
 .about-sec-1,.about-sec-2,.about-sec-3{
     width: 30%;
-    /* border: 1px solid green; */
 }
 
 /* Section 1 */
@@ -36,7 +34,7 @@
     z-index: 1;
     margin-top: -21.5em;
     margin-left: 10em;
-    background-image: url(/src/assets/my.png);
+    background-image: url(/src/assets/illus.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -106,4 +104,77 @@
     border: 5px solid white;
     margin-right: -1em;
     z-index: 1;
+}
+
+@media screen and (max-width: 1440px) {
+    .about-sec-3{
+        display: none;
+    }
+
+    .about-sec-2{
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 1220px) {
+    .about-sec-3 {
+        display: none;
+    }
+
+    .about-sec-2 {
+        width: 60%;
+    }
+
+    .about-sec-1 .about-sec-1-square-border {
+        width: 250px;
+        height: 250px;
+        margin-top: 2em;
+        margin-left: -2em;
+    }
+
+    .about-sec-1 .about-sec-1-square-image {
+        width: 250px;
+        height: 320px;
+        margin-top: -13.5em;
+        margin-left: 8em;
+    }
+
+    .about-sec-1 .about-sec-1-square-fill {
+        width: 250px;
+        height: 250px;
+        margin-top: -11em;
+        margin-left: 4em;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .about-sec-1 {
+        display: none;
+    }
+
+    .about-sec-2 {
+        width: 100%;
+        padding:0 3em ;
+    }
+
+    .about-sec-2-name,
+    .about-sec-2-dev {
+        font-size: 2.5rem;
+    }
+
+    .about-sec-2-address {
+        font-size: 1rem;
+    }
+
+    .about-sec-2-p1,
+    .about-sec-2-p2 {
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 362px) {
+.about-sec-2{
+    padding: 0 2em;
+   }
 }

@@ -3,6 +3,9 @@ import React from 'react';
 import Button from '../../global/components/Button';
 
 import { colors } from '../../global/constants/colors';
+import img from '../../assets/illus.png';
+// import img from '../../assets/image2-lanczos3.png';
+
 import './style.css';
 
 function Home() {
@@ -24,9 +27,12 @@ function Home() {
         </div>
       </div>
       <div className='home-sec-2'>
+        <div className='home-square-img'>
+          <img src={img} alt='' />
+        </div>
         <div className='home-square-small'></div>
         <div className='home-square-border'></div>
-        <div className='home-square-img'></div>
+
         <div className='home-square-big'></div>
       </div>
     </div>
